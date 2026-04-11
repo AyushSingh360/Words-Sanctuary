@@ -494,3 +494,104 @@ body {
   letter-spacing: 0.4em;
 }
 
+/* ---------------- About Page ---------------- */
+.about-section {
+  padding: 6rem 1.5rem;
+  background-color: var(--color-surface);
+  display: flex;
+  justify-content: center;
+}
+
+.about-container {
+  max-width: 48rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.about-header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.about-title {
+  font-family: var(--font-headline);
+  font-size: 3.5rem;
+  color: var(--color-primary-container);
+  letter-spacing: -0.025em;
+}
+
+.about-subtitle {
+  font-family: var(--font-headline);
+  font-style: italic;
+  font-size: 1.5rem;
+  color: var(--color-primary);
+  opacity: 0.9;
+  line-height: 1.5;
+}
+
+.about-text {
+  font-family: var(--font-body);
+  font-size: 1.125rem;
+  font-weight: 300;
+  color: var(--color-on-surface-variant);
+  line-height: 1.8;
+  white-space: pre-line;
+}
+
+.about-journey {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border-left: 2px solid var(--color-outline-variant);
+  padding-left: 2rem;
+  margin-top: 2rem;
+}
+
+.journey-step {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.journey-title {
+  font-family: var(--font-headline);
+  font-size: 1.5rem;
+  color: var(--color-on-surface);
+}
+
+.journey-desc {
+  font-family: var(--font-body);
+  font-weight: 300;
+  color: var(--color-on-surface-variant);
+  line-height: 1.6;
+}
+
+.about-philosophy {
+  background-color: var(--color-surface-container-low);
+  padding: 3rem;
+  border-radius: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.philosophy-title {
+  font-family: var(--font-label);
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 0.875rem;
+  color: var(--color-outline);
+}
+
+.philosophy-quote {
+  font-family: var(--font-headline);
+  font-style: italic;
+  font-size: 1.25rem;
+  color: var(--color-primary);
+}
+
