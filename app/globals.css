@@ -595,3 +595,101 @@ body {
   color: var(--color-primary);
 }
 
+/* ---------------- Journal Page ---------------- */
+.journal-section {
+  padding: 6rem 1.5rem;
+  background-color: var(--color-surface);
+  display: flex;
+  justify-content: center;
+}
+
+.journal-container {
+  max-width: 48rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+
+.journal-entry {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding-bottom: 4rem;
+  border-bottom: 1px solid var(--color-outline-variant);
+}
+
+.journal-entry:last-child {
+  border-bottom: none;
+}
+
+.journal-title {
+  font-family: var(--font-headline);
+  font-size: 2.5rem;
+  color: var(--color-on-surface);
+  transition: color 0.3s;
+}
+
+.journal-title:hover {
+  color: var(--color-primary);
+}
+
+.journal-date {
+  font-family: var(--font-label);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: var(--color-outline);
+}
+
+.journal-excerpt {
+  font-family: var(--font-body);
+  font-weight: 300;
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: var(--color-on-surface-variant);
+}
+
+.journal-read-more {
+  align-self: flex-start;
+  font-family: var(--font-label);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-primary);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: gap 0.3s;
+  text-decoration: none;
+}
+
+.journal-read-more:hover {
+  gap: 1rem;
+}
+
+.journal-pagination {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  font-family: var(--font-label);
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.pagination-btn {
+  color: var(--color-on-surface-variant);
+  text-decoration: none;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: color 0.3s;
+}
+
+.pagination-btn:hover {
+  color: var(--color-primary);
+}
+
