@@ -34,25 +34,96 @@
   border-radius: 2px;
 }
 
-/* Article */
+/* Writings List (Index Page) */
+.writings-list {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.writings-list-item {
+  display: block;
+  padding: 2.5rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  text-decoration: none;
+  color: inherit;
+}
+
+.writings-list-item:first-child {
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.writings-list-item:hover {
+  padding-left: 1rem;
+}
+
+.writings-list-date {
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--accent-purple);
+  display: block;
+  margin-bottom: 0.75rem;
+}
+
+.writings-list-title {
+  font-size: 1.8rem;
+  color: var(--text-dark);
+  margin-bottom: 0.75rem;
+  transition: color 0.3s ease;
+}
+
+.writings-list-item:hover .writings-list-title {
+  color: var(--accent-purple);
+}
+
+.writings-list-excerpt {
+  font-size: 1rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.writings-list-read {
+  font-size: 0.9rem;
+  color: var(--accent-gold);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  transition: transform 0.3s ease;
+  display: inline-block;
+}
+
+.writings-list-item:hover .writings-list-read {
+  transform: translateX(4px);
+}
+
+/* Individual Article */
 .writing-article {
   max-width: 680px;
-  margin: 0 auto 6rem;
+  margin: 0 auto;
   padding: 0 2rem;
   animation: fadeIn 1.2s ease forwards;
   animation-delay: 0.2s;
   opacity: 0;
 }
 
-.writing-article + .writing-article {
-  padding-top: 4rem;
-  border-top: 1px solid rgba(0, 0, 0, 0.04);
+.writing-back-link {
+  display: inline-block;
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 2rem;
+  transition: color 0.3s ease;
+  letter-spacing: 0.02em;
 }
 
-.writing-article-signature {
-  font-style: italic;
+.writing-back-link:hover {
   color: var(--accent-purple);
-  font-family: var(--font-serif);
 }
 
 .writing-article-header {
@@ -111,6 +182,12 @@
   margin-bottom: 0;
 }
 
+.writing-article-signature {
+  font-style: italic;
+  color: var(--accent-purple);
+  font-family: var(--font-serif);
+}
+
 /* Footer End Mark */
 .writing-article-footer {
   text-align: center;
@@ -134,5 +211,9 @@
   .writing-article-body p {
     font-size: 1.15rem;
     line-height: 1.9;
+  }
+
+  .writings-list-title {
+    font-size: 1.4rem;
   }
 }
