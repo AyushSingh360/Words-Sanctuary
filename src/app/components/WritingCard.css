@@ -1,0 +1,66 @@
+.writing-card {
+  padding: 2.5rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  background-color: transparent;
+}
+
+.writing-card:last-child {
+  border-bottom: none;
+}
+
+.writing-card-meta {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.writing-card-date {
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.writing-card-line {
+  height: 1px;
+  width: 30px;
+  background-color: var(--accent-gold);
+  opacity: 0.5;
+}
+
+.writing-card-title {
+  font-size: 1.8rem;
+  color: var(--text-dark);
+  margin-bottom: 1rem;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.writing-card:hover .writing-card-title {
+  color: var(--accent-gold);
+}
+
+.writing-card-excerpt {
+  color: #4a4a4a;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  max-width: 800px;
+}
+
+.writing-card-read-more {
+  font-size: 0.9rem;
+  color: var(--text-dark);
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  letter-spacing: 0.02em;
+}
+
+.writing-card-read-more:hover {
+  color: var(--accent-gold);
+  transform: translateX(4px);
+}
