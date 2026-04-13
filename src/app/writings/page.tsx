@@ -20,7 +20,7 @@ export default function WritingsPage() {
       <article className="writing-article">
         <header className="writing-article-header">
           <time className="writing-article-date">April 13, 2026</time>
-          <h2 className="writing-article-title">A Letter to No One</h2>
+          <h2 className="writing-article-title">A Letter to Someone</h2>
         </header>
 
         <div className="writing-article-body">
@@ -42,6 +42,8 @@ export default function WritingsPage() {
             that helped you find your own way. Because that&apos;s where I actually
             live.
           </p>
+
+          <p className="writing-article-signature">~ash</p>
         </div>
 
         <footer className="writing-article-footer">

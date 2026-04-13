@@ -6,13 +6,13 @@ import QuoteCard from './components/QuoteCard';
 import WritingCard from './components/WritingCard';
 import TagFilter from './components/TagFilter';
 
-const ALL_TAGS = ['All', 'Silence', 'Growth', 'Nature', 'Time', 'Reflection'];
+const ALL_TAGS = ['All', 'Silence', 'Growth', 'Nature', 'ime', 'Reflection'];
 
 // Mock Data
 const sampleQuotes = [
   { id: 1, quote: "Silence is not empty, it is full of answers.", author: "Anonymous", tag: "Silence" },
   { id: 2, quote: "To plant a garden is to believe in tomorrow.", author: "Audrey Hepburn", tag: "Nature" },
-  { id: 3, quote: "Time is a created thing. To say 'I don't have time,' is like saying, 'I don't want to.", author: "Lao Tzu", tag: "Time" },
+  { id: 3, quote: "Time is a created thing. To say 'I don' have time,' is like saying, 'I don' want to.", author: "Lao Tzu", tag: "Time" },
   { id: 4, quote: "The quieter you become, the more you are able to hear.", author: "Rumi", tag: "Reflection" }
 ];
 
@@ -21,7 +21,7 @@ const sampleWritings = [
     id: 1,
     title: "The Architecture of Silence",
     date: "April 13, 2026",
-    excerpt: "There is a structure to quiet moments that we often overlook. It isn't merely the absence of noise, but a presence of calm. When we strip away the constant hum of expectations, what remains is the pure form of our own thoughts...",
+    excerpt: "There is a structure to quiet moments that we often overlook. It isn' merely the absence of noise, but a presence of calm. When we strip away the constant hum of expectations, what remains is the pure form of our own thoughts...",
     tag: "Silence"
   },
   {
@@ -43,10 +43,10 @@ const sampleWritings = [
 export default function Home() {
   const [activeTag, setActiveTag] = useState('All');
 
-  const filteredQuotes = activeTag === 'All' 
-    ? sampleQuotes 
+  const filteredQuotes = activeTag === 'All'
+    ? sampleQuotes
     : sampleQuotes.filter(q => q.tag === activeTag);
-    
+
   const filteredWritings = activeTag === 'All'
     ? sampleWritings
     : sampleWritings.filter(w => w.tag === activeTag);
@@ -54,15 +54,15 @@ export default function Home() {
   return (
     <div className="home-page">
       <Hero />
-      
+
       <main className="container" id="quotes">
         <section className="section-spacing">
-          <TagFilter 
-            tags={ALL_TAGS} 
-            activeTag={activeTag} 
-            onTagSelect={setActiveTag} 
+          <TagFilter
+            tags={ALL_TAGS}
+            activeTag={activeTag}
+            onTagSelect={setActiveTag}
           />
-          
+
           <div className="quotes-grid" style={{
             display: 'grid',
             gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))',
@@ -70,10 +70,10 @@ export default function Home() {
             marginTop: '3rem'
           }}>
             {filteredQuotes.map(quote => (
-              <QuoteCard 
-                key={quote.id} 
-                quote={quote.quote} 
-                author={quote.author} 
+              <QuoteCard
+                key={quote.id}
+                quote={quote.quote}
+                author={quote.author}
               />
             ))}
           </div>
@@ -89,7 +89,7 @@ export default function Home() {
             marginBottom: '4rem',
             color: 'var(--text-dark)'
           }}>Selected Fragments</h2>
-          
+
           <div className="writings-list" style={{
             maxWidth: '800px',
             margin: '0 auto',
@@ -98,7 +98,7 @@ export default function Home() {
             gap: '1rem'
           }}>
             {filteredWritings.map(writing => (
-              <WritingCard 
+              <WritingCard
                 key={writing.id}
                 title={writing.title}
                 excerpt={writing.excerpt}
