@@ -1,0 +1,26 @@
+.tag-filter-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin: 3rem 0;
+}
+
+.tag-pill {
+  padding: 0.6rem 1.5rem;
+  border-radius: 30px;
+  background-color: transparent;
+  border: 1px solid rgba(201, 166, 70, 0.3);
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.tag-pill:hover,
+.tag-pill.active {
+  background-color: var(--accent-gold);
+  color: var(--primary-white);
+  border-color: var(--accent-gold);
+  box-shadow: 0 4px 15px rgba(201, 166, 70, 0.2);
+  transform: translateY(-2px);
+}
