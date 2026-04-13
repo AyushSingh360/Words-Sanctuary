@@ -37,11 +37,22 @@
 /* Article */
 .writing-article {
   max-width: 680px;
-  margin: 0 auto;
+  margin: 0 auto 6rem;
   padding: 0 2rem;
   animation: fadeIn 1.2s ease forwards;
   animation-delay: 0.2s;
   opacity: 0;
+}
+
+.writing-article + .writing-article {
+  padding-top: 4rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+.writing-article-signature {
+  font-style: italic;
+  color: var(--accent-purple);
+  font-family: var(--font-serif);
 }
 
 .writing-article-header {
