@@ -40,7 +40,7 @@
 }
 
 .writing-card:hover .writing-card-title {
-  color: var(--accent-gold);
+  color: var(--accent-purple);
 }
 
 .writing-card-excerpt {
