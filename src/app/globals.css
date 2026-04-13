@@ -1,12 +1,14 @@
 :root {
   --primary-white: #ffffff;
-  --bg-offwhite: #faf8fc;
+  --bg-offwhite: #fafaf7;
   --text-dark: #1f1f1f;
   --text-muted: #5c5c5c;
-  --accent-gold: #7c3aed;
-  --accent-gold-light: rgba(124, 58, 237, 0.1);
-  --accent-blue-light: #ede9fe;
-  --accent-green-light: #e8def8;
+  --accent-gold: #c9a646;
+  --accent-gold-light: rgba(201, 166, 70, 0.1);
+  --accent-purple: #7c3aed;
+  --accent-purple-light: rgba(124, 58, 237, 0.08);
+  --accent-green-light: #d5f5e3;
+  --accent-green: #6bcb77;
 
   /* Fonts injected by next/font */
   --font-sans: var(--font-inter), system-ui, sans-serif;
