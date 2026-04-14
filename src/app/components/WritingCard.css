@@ -1,6 +1,6 @@
 .writing-card {
   padding: 2.5rem 0;
-  border-bottom: 1px solid rgba(201, 166, 70, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   transition: all 0.3s ease;
   background-color: transparent;
 }
@@ -33,18 +33,18 @@
 
 .writing-card-title {
   font-size: 1.8rem;
-  color: var(--text-gold);
+  color: var(--text-dark);
   margin-bottom: 1rem;
   transition: color 0.3s ease;
   cursor: pointer;
 }
 
 .writing-card:hover .writing-card-title {
-  color: var(--text-gold-light);
+  color: var(--accent-purple);
 }
 
 .writing-card-excerpt {
-  color: var(--text-muted);
+  color: #4a4a4a;
   font-size: 1.05rem;
   line-height: 1.8;
   margin-bottom: 1.5rem;
@@ -53,7 +53,7 @@
 
 .writing-card-read-more {
   font-size: 0.9rem;
-  color: var(--text-gold);
+  color: var(--text-dark);
   font-weight: 500;
   text-decoration: none;
   transition: all 0.3s ease;
@@ -61,6 +61,6 @@
 }
 
 .writing-card-read-more:hover {
-  color: var(--text-gold-light);
+  color: var(--accent-gold);
   transform: translateX(4px);
 }

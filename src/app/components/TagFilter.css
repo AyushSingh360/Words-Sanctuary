@@ -18,9 +18,9 @@
 
 .tag-pill:hover,
 .tag-pill.active {
-  background-color: rgba(201, 166, 70, 0.15);
-  color: var(--text-gold-light);
+  background-color: var(--accent-gold);
+  color: var(--primary-white);
   border-color: var(--accent-gold);
-  box-shadow: 0 4px 15px rgba(201, 166, 70, 0.2);
+  box-shadow: 0 4px 15px rgba(124, 58, 237, 0.2);
   transform: translateY(-2px);
 }
