@@ -11,10 +11,10 @@
 }
 
 .navbar-scrolled {
-  background-color: rgba(255, 255, 255, 0.95);
+  background-color: rgba(26, 10, 46, 0.95);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid rgba(201, 166, 70, 0.15);
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
 
 .nav-content {
@@ -28,7 +28,10 @@
   font-family: var(--font-serif);
   font-size: 1.5rem;
   font-weight: 500;
-  color: var(--text-dark);
+  background: var(--gold-metallic);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
   letter-spacing: -0.02em;
 }
 
@@ -46,7 +49,7 @@
 }
 
 .nav-link:hover {
-  color: var(--text-dark);
+  color: var(--text-gold-light);
 }
 
 .nav-link::after {

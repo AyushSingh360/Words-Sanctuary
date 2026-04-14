@@ -1,14 +1,29 @@
 :root {
   --primary-white: #ffffff;
-  --bg-offwhite: #fafaf7;
+  --bg-deep-purple: #1a0a2e;
+  --bg-purple: #2d1b4e;
+  --bg-purple-light: #3a2363;
+  --bg-offwhite: #150826;
   --text-dark: #1f1f1f;
-  --text-muted: #5c5c5c;
+  --text-gold: #d4a843;
+  --text-gold-light: #e8c872;
+  --text-muted: #b89fd4;
   --accent-gold: #c9a646;
-  --accent-gold-light: rgba(201, 166, 70, 0.1);
-  --accent-purple: #7c3aed;
-  --accent-purple-light: rgba(124, 58, 237, 0.08);
-  --accent-green-light: #d5f5e3;
+  --accent-gold-light: rgba(201, 166, 70, 0.15);
+  --accent-purple: #9b6dff;
+  --accent-purple-light: rgba(155, 109, 255, 0.12);
+  --accent-green-light: rgba(107, 203, 119, 0.1);
   --accent-green: #6bcb77;
+
+  /* Metallic gold gradient */
+  --gold-metallic: linear-gradient(
+    135deg,
+    #bf953f 0%,
+    #fcf6ba 25%,
+    #d4a843 50%,
+    #fbf5b7 75%,
+    #aa771c 100%
+  );
 
   /* Fonts injected by next/font */
   --font-sans: var(--font-inter), system-ui, sans-serif;
@@ -22,8 +37,8 @@
 }
 
 body {
-  background-color: var(--primary-white);
-  color: var(--text-dark);
+  background-color: var(--bg-deep-purple);
+  color: var(--text-gold);
   font-family: var(--font-sans);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
@@ -68,7 +83,7 @@ button {
 }
 
 .luxury-text {
-  background: linear-gradient(135deg, var(--text-dark) 0%, #4a4a4a 100%);
+  background: var(--gold-metallic);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
