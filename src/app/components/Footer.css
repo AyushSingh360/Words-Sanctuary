@@ -15,7 +15,10 @@
 
 .footer-title {
   font-size: 1.5rem;
-  color: var(--text-dark);
+  background: var(--gold-metallic);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
   margin-bottom: 1rem;
 }
 
@@ -46,17 +49,17 @@
 }
 
 .social-icon:hover {
-  color: var(--accent-purple);
-  border-color: var(--accent-purple);
+  color: var(--text-gold-light);
+  border-color: var(--accent-gold);
   transform: translateY(-2px);
-  background-color: var(--primary-white);
-  box-shadow: 0 4px 12px rgba(124, 58, 237, 0.12);
+  background-color: rgba(201, 166, 70, 0.1);
+  box-shadow: 0 4px 12px rgba(201, 166, 70, 0.15);
 }
 
 .footer-bottom {
   font-size: 0.8rem;
-  color: #999;
-  border-top: 1px solid #eaeaea;
+  color: rgba(184, 159, 212, 0.5);
+  border-top: 1px solid rgba(201, 166, 70, 0.1);
   padding-top: 1.5rem;
   width: 100%;
 }
