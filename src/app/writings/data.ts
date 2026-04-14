@@ -34,6 +34,20 @@ export const writings: Writing[] = [
     ],
     signature: '~ash',
   },
+  {
+    slug: 'you-know-youre-in-love',
+    title: "You Know You\u0027re in Love",
+    date: 'April 14, 2026',
+    excerpt:
+      "You know you\u0027re in love when you can say anything to the person and you know they won\u0027t laugh at you...",
+    paragraphs: [
+      "You know you\u0027re in love when you can say anything to the person and you know they won\u0027t laugh at you. When you can see their face when you close your eyes. When you can still feel their arms around you holding you tight long after they are gone. When you can still taste their kiss after you have said goodbye. You can tell you\u0027re in love when you miss them before they are gone.",
+      "When their voice lingers in your ears. When their presence eases any pain. When their name sends chills down your spine. When they are the only thing you can think about. You know you are in love when you can see all their hopes and dreams and their soul when you look into their eyes.",
+      "When they call you at four in the morning to say, \u0022I love you\u0022 and mean it. When your tears stain not only their shirt, but also their heart. When they are hurt just because of these tears. When even a simple chore done with them can become a lasting memory.",
+      "Ultimately, you know you are in love when you can\u0027t imagine living without them, and can\u0027t figure how did you live before you knew them. When they fulfill every need and without them you are incomplete. The love of someone else completes the heart, and sound and mind all at once.",
+    ],
+    signature: '~ash',
+  },
 ];
 
 export function getWritingBySlug(slug: string): Writing | undefined {
