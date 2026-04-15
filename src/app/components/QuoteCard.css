@@ -1,6 +1,6 @@
 .quote-card {
-  background-color: var(--primary-white);
-  border: 1px solid rgba(201, 166, 70, 0.15);
+  background-color: var(--surface-bg);
+  border: 1px solid var(--border-gold);
   border-radius: 4px;
   padding: 3rem 2.5rem;
   transition: all 0.4s ease;
@@ -27,8 +27,8 @@
 
 .quote-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.03);
-  border-color: rgba(201, 166, 70, 0.3);
+  box-shadow: 0 15px 35px var(--card-shadow);
+  border-color: var(--accent-gold);
 }
 
 .quote-card:hover::before {
@@ -53,7 +53,7 @@
 
 .quote-text {
   font-size: 1.4rem;
-  color: var(--text-dark);
+  color: var(--text-primary);
   margin-bottom: 1.5rem;
 }
 
