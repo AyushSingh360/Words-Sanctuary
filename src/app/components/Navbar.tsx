@@ -22,7 +22,7 @@ const Navbar: React.FC = () => {
           Words &amp; Silence
         </Link>
         <div className="nav-links">
-          <Link href="#quotes" className="nav-link">Quotes</Link>
+          <Link href="/quotes" className="nav-link">Quotes</Link>
           <Link href="/writings" className="nav-link">Writings</Link>
           <Link href="#about" className="nav-link">About</Link>
         </div>
