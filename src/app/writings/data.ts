@@ -48,6 +48,22 @@ export const writings: Writing[] = [
     ],
     signature: '~ash',
   },
+  {
+    slug: 'i-hope-attachments-never-find-me',
+    title: 'I Hope Attachments Never Find Me Again',
+    date: 'April 15, 2026',
+    excerpt:
+      "I hope attachments never find me again. Not because I don\u0027t want to feel things, but because I don\u0027t know how to stop once I do...",
+    paragraphs: [
+      "I hope attachments never find me again. Not because I don\u0027t want to feel things, but because I don\u0027t know how to stop once I do. I don\u0027t know how to stay \"a little\" attached. It\u0027s always everything\u2014every thought, every moment, every small detail.",
+      "I start noticing things I shouldn\u0027t, remembering things they probably forgot, waiting in ways I never admit out loud. And the worst part is\u2026 I don\u0027t even realize when it\u0027s happening.",
+      "It just slowly becomes a habit\u2014caring a little more than I should, staying a little longer than I need to. Until one day, they\u0027re just a part of my day without trying\u2026 and I\u0027m there, without knowing how to step back.",
+      "And when it ends\u2014it\u0027s never simple for me. I don\u0027t know how to \"just move on.\" I don\u0027t know how to act like it didn\u0027t mean anything. I carry it. In the little things, in the silence, in the moments that suddenly feel empty.",
+      "That\u0027s why I\u0027m scared of it now. Because I know myself\u2026 I won\u0027t leave easily, I won\u0027t stop caring halfway, and I won\u0027t be okay when it\u0027s over.",
+      "So yeah\u2026 I hope attachments never find me again. Because I don\u0027t think I have it in me to lose someone like that twice.",
+    ],
+    signature: '~ash',
+  },
 ];
 
 export function getWritingBySlug(slug: string): Writing | undefined {
