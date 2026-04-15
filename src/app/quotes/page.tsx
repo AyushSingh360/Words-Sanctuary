@@ -3,15 +3,11 @@
 import React from 'react';
 import { quotes } from './data';
 import QuoteCard from '../components/QuoteCard';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
 import './quotes.css';
 
 const QuotesPage = () => {
   return (
-    <main className="quotes-container">
-      <Navbar />
-      
+    <div className="quotes-container">
       <header className="quotes-header fade-in">
         <div className="container">
           <span className="subtitle">Wisdom in Brevity</span>
@@ -33,9 +29,7 @@ const QuotesPage = () => {
           ))}
         </div>
       </section>
-
-      <Footer />
-    </main>
+    </div>
   );
 };
 
