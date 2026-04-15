@@ -64,6 +64,18 @@ export const writings: Writing[] = [
     ],
     signature: '~ash',
   },
+  {
+    slug: 'the-bare-minimum',
+    title: 'The Bare Minimum',
+    date: 'April 15, 2026',
+    excerpt:
+      "If one day I stop communicating with you, don't worry I don't hate you. I just got tired of chasing your attention...",
+    paragraphs: [
+      "If one day I stop communicating with you, don't worry I don't hate you. I just got tired of chasing your attention. I literally asked for the bare minimum, but you made me feel like I was asking for too much.",
+      "I noticed, but I stayed quiet because I always tried to understand, even when it hurt me. But now? I'm done. No more excuses. No more: understanding at my own expense.",
+    ],
+    signature: '~ash',
+  },
 ];
 
 export function getWritingBySlug(slug: string): Writing | undefined {
