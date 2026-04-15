@@ -103,6 +103,19 @@ export const writings: Writing[] = [
     ],
     signature: '~ash',
   },
+  {
+    slug: 'was-leaving-the-only-option',
+    title: 'Was Leaving the Only Option?',
+    date: 'April 15, 2026',
+    excerpt:
+      "I\u0027ve accepted that we\u0027re not together anymore, but one question still stays with me. Was leaving really the only option?...",
+    paragraphs: [
+      "I\u0027ve accepted that we\u0027re not together anymore, but one question still stays with me. Was leaving really the only option? I admit I overreacted at times, maybe I overthought and became too possessive. I should have trusted more.",
+      "But didn't I try to share these things with you? If I truly trusted my overthinking, why would I come to you to talk instead of believing my thoughts? I came to clear things between us, not to create distance.",
+      "One last question\u2014even if I was wrong, was leaving me easier than trying to explain things to me? We were really close... we could have tried once more, couldn\u0027t we?",
+    ],
+    signature: '~ash',
+  },
 ];
 
 export function getWritingBySlug(slug: string): Writing | undefined {
