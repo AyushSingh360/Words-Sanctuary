@@ -76,6 +76,19 @@ export const writings: Writing[] = [
     ],
     signature: '~ash',
   },
+  {
+    slug: 'if-loving-me',
+    title: 'If Loving Me...',
+    date: 'April 15, 2026',
+    excerpt:
+      "If loving me was so hard and draining, I\u0027m truly sorry. I never wanted to be the reason you felt tired or worn out...",
+    paragraphs: [
+      "If loving me was so hard and draining, I\u0027m truly sorry. I never wanted to be the reason you felt tired or worn out. I know I\u0027m not the easiest person to love, I have my moods, my fears, and all the things that make me hard to-understand sometimes.",
+      "I regret the times I made things harder for you. I\u0027m sorry for every argument, every misunderstanding, and every moment that tested your patience. I never meant to hurt you or make you feel like loving me was too much.",
+      "Please know that I never wanted to cause you any pain. I just hope you saw the love I was trying to give, even if it didn't always come out right. I\u0027m sorry if loving me ever felt like a burden.",
+    ],
+    signature: '~ash',
+  },
 ];
 
 export function getWritingBySlug(slug: string): Writing | undefined {
