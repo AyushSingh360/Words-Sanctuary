@@ -16,7 +16,7 @@ export default function Home() {
             fontSize: '2.5rem',
             textAlign: 'center',
             marginBottom: '4rem',
-            color: 'var(--text-dark)'
+            color: 'var(--text-primary)'
           }}>Selected Fragments</h2>
 
           <div className="writings-list" style={{
