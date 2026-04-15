@@ -3,7 +3,7 @@ import './Footer.css';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="footer" id="about">
+    <footer className="footer">
       <div className="container footer-content">
         <div className="footer-bio">
           <h3 className="footer-title">Words &amp; Silence</h3>
