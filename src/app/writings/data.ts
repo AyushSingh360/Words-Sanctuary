@@ -89,6 +89,20 @@ export const writings: Writing[] = [
     ],
     signature: '~ash',
   },
+  {
+    slug: 'scared-of-losing-you',
+    title: 'Scared of Losing You',
+    date: 'April 15, 2026',
+    excerpt:
+      "I won\u0027t lie... I\u0027m scared of losing you. Not in a dramatic way... but in the little things...",
+    paragraphs: [
+      "I won\u0027t lie... I\u0027m scared of losing you. Not in a dramatic way... but in the little things.",
+      "When your replies come late. When your tone feels different. When your presence feels far.",
+      "I act normal... I smile... but deep down, I notice everything. Because people don't leave all at once... they fade... slowly... piece by piece. And I don't know.. If I can survive that again.",
+      "So yes, I hold on tighter... Not to suffocate you. But because I'm terrified... of you letting go.",
+    ],
+    signature: '~ash',
+  },
 ];
 
 export function getWritingBySlug(slug: string): Writing | undefined {
