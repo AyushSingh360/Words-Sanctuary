@@ -14,7 +14,7 @@
 
 .writings-page-title {
   font-size: clamp(2.5rem, 5vw, 3.5rem);
-  color: var(--text-dark);
+  color: var(--text-primary);
   margin-bottom: 0.75rem;
   letter-spacing: -0.01em;
 }
@@ -47,14 +47,14 @@
 .writings-list-item {
   display: block;
   padding: 2.5rem 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid var(--border-light);
   transition: all 0.3s ease;
   text-decoration: none;
   color: inherit;
 }
 
 .writings-list-item:first-child {
-  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  border-top: 1px solid var(--border-light);
 }
 
 .writings-list-item:hover {
@@ -73,7 +73,7 @@
 
 .writings-list-title {
   font-size: 1.8rem;
-  color: var(--text-dark);
+  color: var(--text-primary);
   margin-bottom: 0.75rem;
   transition: color 0.3s ease;
 }
@@ -143,7 +143,7 @@
 
 .writing-article-title {
   font-size: clamp(1.8rem, 4vw, 2.8rem);
-  color: var(--text-dark);
+  color: var(--text-primary);
   line-height: 1.25;
 }
 
@@ -173,7 +173,7 @@
   font-family: var(--font-serif);
   font-size: 1.3rem;
   line-height: 2;
-  color: #2a2a2a;
+  color: var(--text-secondary);
   margin-bottom: 2.5rem;
   letter-spacing: 0.005em;
 }
@@ -193,7 +193,7 @@
   text-align: center;
   margin-top: 4rem;
   padding-top: 3rem;
-  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  border-top: 1px solid var(--border-light);
 }
 
 .writing-article-end-mark {
