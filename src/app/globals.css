@@ -12,6 +12,7 @@
   --accent-gold: #c9a646;
   --accent-gold-light: rgba(201, 166, 70, 0.1);
   --accent-purple: #7c3aed;
+  --accent-purple-dark: #6d28d9;
   --accent-purple-light: rgba(124, 58, 237, 0.08);
   --accent-green-light: #d5f5e3;
   --accent-green: #6bcb77;
@@ -49,6 +50,7 @@
   --accent-gold: #d4b964;
   --accent-gold-light: rgba(212, 185, 100, 0.12);
   --accent-purple: #a78bfa;
+  --accent-purple-dark: #8b5cf6;
   --accent-purple-light: rgba(167, 139, 250, 0.1);
   --accent-green-light: rgba(107, 203, 119, 0.1);
   --accent-green: #6bcb77;
