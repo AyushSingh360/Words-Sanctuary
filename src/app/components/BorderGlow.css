@@ -1,6 +1,6 @@
 .border-glow-container {
   position: relative;
-  border-radius: 12px;
+  border-radius: var(--border-radius);
   padding: 1px;
   overflow: hidden;
   background: var(--border-light);
@@ -12,8 +12,8 @@
   position: relative;
   z-index: 2;
   height: 100%;
-  background: var(--surface-bg);
-  border-radius: 11px;
+  background: var(--bg-color);
+  border-radius: calc(var(--border-radius) - 1px);
 }
 
 .glow-edge {
@@ -28,12 +28,13 @@
     from 0deg,
     transparent 0deg,
     transparent 150deg,
-    var(--accent-gold) 180deg,
-    var(--accent-purple) 210deg,
-    transparent 240deg,
+    var(--color-1) 180deg,
+    var(--color-2) calc(180deg + var(--cone-spread)),
+    var(--color-3) calc(180deg + var(--cone-spread) * 2),
+    transparent calc(180deg + var(--cone-spread) * 3),
     transparent 360deg
   );
-  filter: blur(15px);
+  filter: blur(var(--glow-radius));
   opacity: 0;
   transition: opacity 0.6s ease;
   pointer-events: none;
@@ -42,12 +43,12 @@
 /* Hover States */
 .border-glow-container:hover {
   transform: translateY(-8px);
-  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 25px 50px rgba(0, 0, 0, calc(var(--glow-intensity) * 0.1));
   background: transparent;
 }
 
 .border-glow-container:hover .glow-edge {
-  opacity: 1;
+  opacity: var(--glow-intensity);
 }
 
 /* Animation */
