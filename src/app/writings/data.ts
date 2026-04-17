@@ -9,6 +9,21 @@ export interface Writing {
 
 export const writings: Writing[] = [
   {
+    slug: 'melancholy-home',
+    title: 'Melancholy Home',
+    date: 'April 17, 2026',
+    excerpt:
+      "Where do I go? There's no way, leading me back home. Where is my home? I think I've lost it...",
+    paragraphs: [
+      "Where do I go? There's no way, leading me back home.",
+      "Where is my home? I think I've lost it, long time ago.",
+      "All the people I knew, are just ghosts in the past now.",
+      "I've left behind, so many places, where I never belonged.",
+      "And in the end, with my melancholy, I'm all alone.",
+    ],
+    signature: '~ash',
+  },
+  {
     slug: 'if-you-ever-come-back',
     title: 'If You Ever Come Back',
     date: 'April 17, 2026',
