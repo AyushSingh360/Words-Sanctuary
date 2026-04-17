@@ -1,0 +1,86 @@
+.border-glow-container {
+  position: relative;
+  border-radius: 12px;
+  padding: 1px;
+  overflow: hidden;
+  background: var(--border-light);
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  height: 100%;
+}
+
+.border-glow-inner {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+  background: var(--surface-bg);
+  border-radius: 11px;
+}
+
+.glow-edge {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 140%;
+  height: 140%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  background: conic-gradient(
+    from 0deg,
+    transparent 0deg,
+    transparent 150deg,
+    var(--accent-gold) 180deg,
+    var(--accent-purple) 210deg,
+    transparent 240deg,
+    transparent 360deg
+  );
+  filter: blur(15px);
+  opacity: 0;
+  transition: opacity 0.6s ease;
+  pointer-events: none;
+}
+
+/* Hover States */
+.border-glow-container:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.1);
+  background: transparent;
+}
+
+.border-glow-container:hover .glow-edge {
+  opacity: 1;
+}
+
+/* Animation */
+.border-glow-container.animated:hover .glow-edge {
+  animation: rotateGlow 4s linear infinite;
+}
+
+@keyframes rotateGlow {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+/* Premium Glass Effect on the edge */
+.border-glow-container::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 12px;
+  padding: 1px;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    transparent 50%,
+    rgba(255, 255, 255, 0.05)
+  );
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  z-index: 3;
+}

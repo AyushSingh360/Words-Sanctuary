@@ -6,15 +6,19 @@ interface QuoteCardProps {
   author: string;
 }
 
+import BorderGlow from './BorderGlow';
+
 const QuoteCard: React.FC<QuoteCardProps> = ({ quote, author }) => {
   return (
-    <div className="quote-card">
-      <div className="quote-card-content">
-        <span className="quote-mark">"</span>
-        <h3 className="quote-text">{quote}</h3>
-        <p className="quote-author">&mdash; {author}</p>
+    <BorderGlow className="quote-card-glow">
+      <div className="quote-card">
+        <div className="quote-card-content">
+          <span className="quote-mark">"</span>
+          <h3 className="quote-text">{quote}</h3>
+          <p className="quote-author">&mdash; {author}</p>
+        </div>
       </div>
-    </div>
+    </BorderGlow>
   );
 };
 
