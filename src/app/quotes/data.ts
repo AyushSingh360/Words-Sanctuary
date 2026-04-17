@@ -41,5 +41,10 @@ export const quotes: Quote[] = [
     content: "I once was full of life too, but now I am in a place where I no longer belong. I keep burning myself until I turn into ashes. I have finally become \"the nothing\" I was always afraid of.",
     author: "ash",
     category: "Identity"
+  {
+    id: 7,
+    content: "Oh lord, if they pray for a child again, give them one who dœs not apologize for existing",
+    author: "ash",
+    category: "Prayer"
   }
 ];
