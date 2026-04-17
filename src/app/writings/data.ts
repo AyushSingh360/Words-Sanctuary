@@ -9,6 +9,23 @@ export interface Writing {
 
 export const writings: Writing[] = [
   {
+    slug: 'something-simple',
+    title: 'Something Simple',
+    date: 'April 17, 2026',
+    excerpt:
+      "if it's love, they'll climb mountains, cross oceans, reach the moon just to hold you...",
+    paragraphs: [
+      "if it's love, they'll climb mountains, cross oceans, reach the moon just to hold you.",
+      "But I've learned... some people won't even cross the distance of their own ego.",
+      "So I stopped believing in grand gestures, in stories where someone fights the world for you, because in my world, they barely fought for a conversation.",
+      "And maybe it's not that love doesn't exist like that, maybe it's just that no one ever felt that kind of love for me.",
+      "Not enough to stay. Not enough to choose me when it got hard. Not enough to reach out when silence grew between us.",
+      "So now I don't dream of mountains or moons anymore; I just wonder if someone, someday, will do something simple...",
+      "like stay, like try, like not give up on me so easily.",
+    ],
+    signature: '~ash',
+  },
+  {
     slug: 'a-letter-to-someone',
     title: 'A Letter to Someone',
     date: 'April 13, 2026',
