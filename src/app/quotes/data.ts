@@ -35,6 +35,7 @@ export const quotes: Quote[] = [
     content: "Maybe in another universe I won't ruin everything by being emotionally difficult.",
     author: "ash",
     category: "Regret"
+  },
   {
     id: 6,
     content: "I once was full of life too, but now I am in a place where I no longer belong. I keep burning myself until I turn into ashes. I have finally become \"the nothing\" I was always afraid of.",
