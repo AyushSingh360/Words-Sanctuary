@@ -9,6 +9,20 @@ export interface Writing {
 
 export const writings: Writing[] = [
   {
+    slug: 'if-you-ever-come-back',
+    title: 'If You Ever Come Back',
+    date: 'April 17, 2026',
+    excerpt:
+      "If you ever come back, don't ask me if I waited. Ask me how many times I almost stopped...",
+    paragraphs: [
+      "If you ever come back, don't ask me if I waited. Ask me how many times I almost stopped.",
+      "Ask me how many nights I convinced myself that losing you was the right thing. Because waiting was never romantic; it was exhausting.",
+      "It was choosing you in rooms where you were no longer choosing me. And if you do return, don't expect the same version of me.",
+      "Love like that doesn't survive; it transforms, or it disappears. So if you come back, come gently, because I'm not sure which version of me you'll find waiting.",
+    ],
+    signature: '~ash',
+  },
+  {
     slug: 'something-simple',
     title: 'Something Simple',
     date: 'April 17, 2026',
