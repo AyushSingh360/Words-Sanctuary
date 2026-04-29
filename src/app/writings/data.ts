@@ -162,6 +162,31 @@ export const writings: Writing[] = [
     ],
     signature: '~ash',
   },
+  {
+    slug: 'mock-my-existence',
+    title: 'Mock My Existence',
+    date: 'April 29, 2026',
+    excerpt:
+      "My sufferings are worth making fun of. Mock me for how I breathe, how I was afraid as a kid...",
+    paragraphs: [
+      "My sufferings are worth making fun of. Mock me for how I breathe, how I was afraid as a kid, and how I asked for help and cried when I lost my dear friend.",
+      "Mock my existence; make me feel inhuman for feeling all of this as if my entire life has been a tragedical wreck of everything I loved."
+    ],
+    signature: '~ash',
+  },
+  {
+    slug: 'i-am-no-longer-me',
+    title: 'I Am No Longer, Me',
+    date: 'April 29, 2026',
+    excerpt:
+      "I no longer wish for anything. I no longer wish to be loved, to be heard or seen, to be understood...",
+    paragraphs: [
+      "I no longer wish for anything. I no longer wish to be loved, to be heard or seen, to be understood.",
+      "I no longer wish for my suffering to end. I no longer wish to do or be anything. I no longer wish to dream.",
+      "I am no longer, me."
+    ],
+    signature: '~ash',
+  },
 ];
 
 export function getWritingBySlug(slug: string): Writing | undefined {

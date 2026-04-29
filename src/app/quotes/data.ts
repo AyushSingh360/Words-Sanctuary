@@ -47,5 +47,17 @@ export const quotes: Quote[] = [
     content: "Oh lord, if they pray for a child again, give them one who dœs not apologize for existing",
     author: "ash",
     category: "Prayer"
+  },
+  {
+    id: 8,
+    content: "And If You Hesitate Between Me And Another Person, Don't Choose Me.",
+    author: "ash",
+    category: "Choice"
+  },
+  {
+    id: 9,
+    content: "Because I felt your absence, I felt the pain physically in my bones, in my chest. It suffocated me.",
+    author: "ash",
+    category: "Pain"
   }
 ];
