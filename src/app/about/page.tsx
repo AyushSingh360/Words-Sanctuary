@@ -40,9 +40,9 @@ const values = [
 ];
 
 const stats = [
-  { number: '8', label: 'Writings', suffix: '+' },
-  { number: '5', label: 'Quotes', suffix: '+' },
-  { number: '1', label: 'Voice', suffix: '' },
+  { number: '35', label: 'Writings', suffix: '+' },
+  { number: '25', label: 'Quotes', suffix: '+' },
+  { number: '13', label: 'Voice', suffix: '' },
   { number: '∞', label: 'Emotions', suffix: '' },
 ];
 
@@ -83,7 +83,7 @@ export default function AboutPage() {
             Words & Silence
           </h1>
           <p className="about-hero-subtitle">
-            Not a blog. Not a portfolio. A sanctuary — where thoughts rest 
+            Not a blog. Not a portfolio. A sanctuary — where thoughts rest
             and emotions find the language they were always searching for.
           </p>
           <div className="about-hero-scroll-indicator">
@@ -122,13 +122,13 @@ export default function AboutPage() {
             <span className="about-section-label">Origin</span>
             <h2 className="about-section-title">Why This Exists</h2>
             <p>
-              This space was never planned. It grew out of necessity — the kind that comes 
+              This space was never planned. It grew out of necessity — the kind that comes
               at 2 AM when the silence is too heavy and the only way to breathe is to write.
             </p>
             <p>
-              I don&apos;t write to be read. I write because some feelings are too large 
-              to carry alone, and too fragile to speak aloud. Words & Silence is what 
-              happens when those worlds collide — when saying something and saying nothing 
+              I don&apos;t write to be read. I write because some feelings are too large
+              to carry alone, and too fragile to speak aloud. Words & Silence is what
+              happens when those worlds collide — when saying something and saying nothing
               both feel equally impossible.
             </p>
             <p>
@@ -139,7 +139,7 @@ export default function AboutPage() {
             <div className="origin-quote-card">
               <span className="origin-quote-mark">&ldquo;</span>
               <p className="origin-quote-text">
-                I don&apos;t write to be heard. I write because silence was never enough 
+                I don&apos;t write to be heard. I write because silence was never enough
                 to hold everything I feel.
               </p>
               <span className="origin-quote-author">~ash</span>
